@@ -3,5 +3,12 @@ def oxford_comma(array)
     array.join(" and ")
     return
   end
-  array.join
+  if array.size == 1
+    return
+  end
+  if array.size > 3
+    array.join
+    return
+  end
+  
 end
