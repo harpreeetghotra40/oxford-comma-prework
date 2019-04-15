@@ -9,7 +9,7 @@ def oxford_comma(array)
     return array.join(",", " and ")
   end
   if array.size > 3
-    return array.join(",")
+    return array.join(", ")
   end
 
 end
